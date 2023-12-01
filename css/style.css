@@ -1,0 +1,150 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+
+a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+header{
+ /*    display: flex; */
+    justify-content: center;
+    background-color: rgb(212, 136, 37);
+    font-size: 1rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+  box-shadow: rgba(223, 152, 1, 0.25) 0 4px 8px 0, rgba
+    (9,30,66,.15) 0 -2px 0 0 inset; 
+    transition: all .3s ease;
+}
+
+
+.menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+    display: inline-block;
+}
+
+.menu-item h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 1em 0;
+}
+
+.imagen{
+    max-width: 100%; /* Ajustar el tamaño máximo de la imagen al ancho del div */
+    height: auto; /* Mantener la relación de aspecto original */
+}
+
+
+.section-1{
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+
+#cambiarColorBtn{
+    cursor:pointer;
+    background-color: #bb7111;
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.button2{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+h1{
+   display: block;
+   font-family: 'Raleway', sans-serif;
+   letter-spacing: 1px;
+   line-height: 1.2;
+   font-weight: bold;
+   font-size: 2em;
+   color:#fff;
+   width: 100%;
+   max-width: 600px;
+   margin: auto;
+   text-align: center;
+   padding: 20px 0;
+}
+
+.botoncolor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh; 
+    width: 90%;
+    margin:auto;
+}
+
+.Form-text{
+    font-size: 20px;
+}
+
+.inputs{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+ 
